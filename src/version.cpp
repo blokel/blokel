@@ -32,8 +32,9 @@ with this program; if not, write to the Free Software Foundation, Inc.,
 	#define VERSION_GITHASH VERSION_STRING
 #endif
 
-const char *minetest_version_simple = "0.0.3";
-const char *minetest_version_hash = "0.0.3";
+// Blocked out version numbering because it is annoying.
+const char *minetest_version_simple = "";
+const char *minetest_version_hash = "";
 
 #ifdef USE_CMAKE_CONFIG_H
 const char *minetest_build_info =
