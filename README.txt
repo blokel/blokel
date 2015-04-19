@@ -1,9 +1,7 @@
 Blokel
 ========
 
-Blokel is a game inspired by Minecraft. It's goal is to make a better experience than Minecraft and the like. It's built to be faster, prettier, and better.
-Blokel was also made open source as an engine, so other people all over the globe can contribute to the project or use the code to make their own game.
-
+Blokel is a game inspired by Cube World. Its goal is to make a game that has RPG elements like Cube World, but have that voxel experience that Minecraft has. As well as to have tons of exploration features provided in Terraria and Minecraft. Nonetheless, we accept hate comments calling it a Minecraft clone, a 3D terraria clone, and a Cube World clone, because that is exactly what it is.
 Blokel is not released, but you can compile the current source to see the progress so far, with instructions below.
 
 Copyright (c) 2015 Preston (Marth) Cammarata
