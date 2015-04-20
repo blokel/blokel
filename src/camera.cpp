@@ -78,7 +78,7 @@ Camera::Camera(scene::ISceneManager* smgr, MapDrawControl& draw_control,
 	m_wield_change_timer(0.125),
 	m_wield_item_next(),
 
-	m_camera_mode(CAMERA_MODE_FIRST)
+	m_camera_mode(CAMERA_MODE_THIRD)
 {
 	//dstream<<__FUNCTION_NAME<<std::endl;
 
