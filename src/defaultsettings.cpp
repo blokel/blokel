@@ -87,8 +87,8 @@ void set_default_settings(Settings *settings)
 	settings->setDefault("show_debug", "true");
 	#endif
 
-	settings->setDefault("wanted_fps", "30");
-	settings->setDefault("fps_max", "60");
+	settings->setDefault("wanted_fps", "50");
+	settings->setDefault("fps_max", "120");
 	settings->setDefault("pause_fps_max", "20");
 	// A bit more than the server will send around the player, to make fog blend well
 	settings->setDefault("viewing_range_nodes_max", "240");
@@ -106,9 +106,9 @@ void set_default_settings(Settings *settings)
 	settings->setDefault("fov", "72");
 	settings->setDefault("view_bobbing", "true");
 	settings->setDefault("new_style_water", "false");
-	settings->setDefault("new_style_leaves", "true");
+	settings->setDefault("new_style_leaves", "false");
 	settings->setDefault("connected_glass", "false");
-	settings->setDefault("smooth_lighting", "true");
+	settings->setDefault("smooth_lighting", "false");
 	settings->setDefault("display_gamma", "1.8");
 	settings->setDefault("texture_path", "");
 	settings->setDefault("shader_path", "");
@@ -126,7 +126,7 @@ void set_default_settings(Settings *settings)
 	settings->setDefault("view_bobbing_amount", "1.0");
 	settings->setDefault("fall_bobbing_amount", "0.0");
 	settings->setDefault("enable_3d_clouds", "true");
-	settings->setDefault("cloud_height", "120");
+	settings->setDefault("cloud_height", "80");
 	settings->setDefault("menu_clouds", "true");
 	settings->setDefault("opaque_water", "false");
 	settings->setDefault("console_color", "(0,0,0)");
@@ -164,9 +164,9 @@ void set_default_settings(Settings *settings)
 	settings->setDefault("enable_waving_leaves", "false");
 	settings->setDefault("enable_waving_plants", "false");
 	settings->setDefault("ambient_occlusion_gamma", "2.2");
-	settings->setDefault("enable_shaders", "true");
+	settings->setDefault("enable_shaders", "false");
 	settings->setDefault("repeat_rightclick_time", "0.25");
-	settings->setDefault("enable_particles", "true");
+	settings->setDefault("enable_particles", "false");
 	settings->setDefault("enable_mesh_cache", "true");
 
 	settings->setDefault("curl_timeout", "5000");
@@ -219,7 +219,7 @@ void set_default_settings(Settings *settings)
 	settings->setDefault("max_packets_per_iteration","1024");
 	settings->setDefault("port", "30000");
 	settings->setDefault("bind_address", "");
-	settings->setDefault("default_game", "minetest");
+	settings->setDefault("default_game", "blokel");
 	settings->setDefault("motd", "");
 	settings->setDefault("max_users", "15");
 	settings->setDefault("strict_protocol_version_checking", "false");
@@ -288,7 +288,7 @@ void set_default_settings(Settings *settings)
 	settings->setDefault("liquid_update", "1.0");
 
 	//mapgen stuff
-	settings->setDefault("mg_name", "v6");
+	settings->setDefault("mg_name", "v7");
 	settings->setDefault("water_level", "1");
 	settings->setDefault("chunksize", "5");
 	settings->setDefault("mg_flags", "");
