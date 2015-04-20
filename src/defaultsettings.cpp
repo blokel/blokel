@@ -106,9 +106,9 @@ void set_default_settings(Settings *settings)
 	settings->setDefault("fov", "72");
 	settings->setDefault("view_bobbing", "true");
 	settings->setDefault("new_style_water", "false");
-	settings->setDefault("new_style_leaves", "false");
+	settings->setDefault("new_style_leaves", "true");
 	settings->setDefault("connected_glass", "false");
-	settings->setDefault("smooth_lighting", "false");
+	settings->setDefault("smooth_lighting", "true");
 	settings->setDefault("display_gamma", "1.8");
 	settings->setDefault("texture_path", "");
 	settings->setDefault("shader_path", "");
@@ -126,7 +126,7 @@ void set_default_settings(Settings *settings)
 	settings->setDefault("view_bobbing_amount", "1.0");
 	settings->setDefault("fall_bobbing_amount", "0.0");
 	settings->setDefault("enable_3d_clouds", "true");
-	settings->setDefault("cloud_height", "80");
+	settings->setDefault("cloud_height", "120");
 	settings->setDefault("menu_clouds", "true");
 	settings->setDefault("opaque_water", "false");
 	settings->setDefault("console_color", "(0,0,0)");
@@ -164,9 +164,9 @@ void set_default_settings(Settings *settings)
 	settings->setDefault("enable_waving_leaves", "false");
 	settings->setDefault("enable_waving_plants", "false");
 	settings->setDefault("ambient_occlusion_gamma", "2.2");
-	settings->setDefault("enable_shaders", "false");
+	settings->setDefault("enable_shaders", "true");
 	settings->setDefault("repeat_rightclick_time", "0.25");
-	settings->setDefault("enable_particles", "false");
+	settings->setDefault("enable_particles", "true");
 	settings->setDefault("enable_mesh_cache", "true");
 
 	settings->setDefault("curl_timeout", "5000");
@@ -219,7 +219,7 @@ void set_default_settings(Settings *settings)
 	settings->setDefault("max_packets_per_iteration","1024");
 	settings->setDefault("port", "30000");
 	settings->setDefault("bind_address", "");
-	settings->setDefault("default_game", "blokel");
+	settings->setDefault("default_game", "minetest");
 	settings->setDefault("motd", "");
 	settings->setDefault("max_users", "15");
 	settings->setDefault("strict_protocol_version_checking", "false");
