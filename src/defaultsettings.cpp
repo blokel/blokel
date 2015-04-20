@@ -87,8 +87,8 @@ void set_default_settings(Settings *settings)
 	settings->setDefault("show_debug", "true");
 	#endif
 
-	settings->setDefault("wanted_fps", "50");
-	settings->setDefault("fps_max", "120");
+	settings->setDefault("wanted_fps", "30");
+	settings->setDefault("fps_max", "60");
 	settings->setDefault("pause_fps_max", "20");
 	// A bit more than the server will send around the player, to make fog blend well
 	settings->setDefault("viewing_range_nodes_max", "240");
