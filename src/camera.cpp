@@ -78,7 +78,7 @@ Camera::Camera(scene::ISceneManager* smgr, MapDrawControl& draw_control,
 	m_wield_change_timer(0.125),
 	m_wield_item_next(),
 
-	m_camera_mode(CAMERA_MODE_THIRD)
+	m_camera_mode(CAMERA_MODE_FIRST)
 {
 	//dstream<<__FUNCTION_NAME<<std::endl;
 
@@ -382,8 +382,6 @@ void Camera::update(LocalPlayer* player, f32 frametime, f32 busytime,
 		bool abort = false;
 		for (int i = BS; i <= BS*2.75; i++)
 		{
-			// Adds a farther away camera angle
-			for (int i = BS; i <= BS* 3.2; i++)
 			my_cp.X = m_camera_position.X + m_camera_direction.X*-i;
 			my_cp.Z = m_camera_position.Z + m_camera_direction.Z*-i;
 			if (i > 12)
